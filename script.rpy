@@ -3,8 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
-
+define e = Character("Miko")
+define k = Character("Kit")
 
 # The game starts here.
 
@@ -24,10 +24,15 @@ label start:
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    e "Welcome to the shrine, Kit"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    e "If pass the spirit test, you can join us as a messenger.."
 
+    "Kit's ears perk up."
+
+    show kit happy
+
+    k "Excellent"
     # This ends the game.
 
     return
